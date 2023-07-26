@@ -44,12 +44,12 @@
 
 @media (max-width: 734px){
     
-  .container{
+  /* .container{
          width: 100%;
-  }
-  .productContainer{
+  } */
+  /* .productContainer{
          width: 100%;
-  }
+  } */
   .flexData{
     width: 90%;
     justify-content: center;

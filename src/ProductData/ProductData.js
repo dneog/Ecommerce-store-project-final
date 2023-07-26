@@ -1,44 +1,3 @@
-import one from '../assets/E-commerce-pics/headphones/one.jpg';
-import one1 from '../assets/E-commerce-pics/headphones/s1.jpg';
-import one2 from '../assets/E-commerce-pics/headphones/s2.jpg';
-import one3 from '../assets/E-commerce-pics/headphones/s3.jpg';
-
-import two from '../assets/E-commerce-pics/headphones/two.jpg';
-import two1 from '../assets/E-commerce-pics/headphones/i1.jpg';
-import two2 from '../assets/E-commerce-pics/headphones/i2.jpg';
-import two3 from '../assets/E-commerce-pics/headphones/i3.jpg';
-
-import three from '../assets/E-commerce-pics/headphones/three.jpg';
-import p1 from '../assets/E-commerce-pics/headphones/p1.jpg';
-
-import sw1 from '../assets/E-commerce-pics/smartwatch/sw1.jpg';
-import a1 from '../assets/E-commerce-pics/smartwatch/a1.jpg';
-import a2 from '../assets/E-commerce-pics/smartwatch/a2.jpg';
-import a3 from '../assets/E-commerce-pics/smartwatch/a3.jpg';
-
-import sw2 from '../assets/E-commerce-pics/smartwatch/sw2.jpg';
-import a4 from '../assets/E-commerce-pics/smartwatch/a4.jpg';
-
-import lap1 from '../assets/E-commerce-pics/laptop/lap1.jpg';
-import lap2 from '../assets/E-commerce-pics/laptop/lap2.jpg';
-import l1 from '../assets/E-commerce-pics/laptop/l1.jpg';
-import l3 from '../assets/E-commerce-pics/laptop/l3.jpg';
-import l4 from '../assets/E-commerce-pics/laptop/l4.jpg';
-import l5 from '../assets/E-commerce-pics/laptop/l5.jpg';
-import l6 from '../assets/E-commerce-pics/laptop/l6.jpg';
-
-import er1 from '../assets/E-commerce-pics/earpod/er1.jpg';
-import er2 from '../assets/E-commerce-pics/earpod/er2.jpg';
-import e1 from '../assets/E-commerce-pics/earpod/e1.jpg';
-
-import e4 from '../assets/E-commerce-pics/earpod/e4.jpg';
-import e5 from '../assets/E-commerce-pics/earpod/e5.jpg';
-import e6 from '../assets/E-commerce-pics/earpod/e6.jpg';
-import e7 from '../assets/E-commerce-pics/earpod/e7.jpg';
-import e8 from '../assets/E-commerce-pics/earpod/e8.jpg';
-
-
-
 
 export const ProductData = [
 
@@ -50,10 +9,11 @@ export const ProductData = [
         brand: 'Intex',
         id: 1,
         image: [
-            sw1,
-            a1,
-            a2,
-            a3
+            'https://res.cloudinary.com/dp7wnxwc6/image/upload/v1690382371/tech-store-projects/sw1_kzabtz.jpg',
+
+            'https://res.cloudinary.com/dp7wnxwc6/image/upload/v1690383117/tech-store-projects/a3_fmayvw.jpg',
+            'https://res.cloudinary.com/dp7wnxwc6/image/upload/v1690383116/tech-store-projects/a2_drx9ew.jpg',
+            'https://res.cloudinary.com/dp7wnxwc6/image/upload/v1690383112/tech-store-projects/a1_rleozw.jpg'
         ],
         review: []   
     },    
@@ -67,10 +27,11 @@ export const ProductData = [
     brand: 'Intex',
     id: 2,
     image: [
-        two,     
-        two1,     
-        two2,     
-        two3     
+        'https://res.cloudinary.com/dp7wnxwc6/image/upload/v1690382438/tech-store-projects/two_ki6xbg.jpg',
+
+        'https://res.cloudinary.com/dp7wnxwc6/image/upload/v1690383025/tech-store-projects/i3_yh3crs.jpg',     
+        'https://res.cloudinary.com/dp7wnxwc6/image/upload/v1690383018/tech-store-projects/i2_diivqc.jpg',     
+        'https://res.cloudinary.com/dp7wnxwc6/image/upload/v1690382998/tech-store-projects/i1_okksy5.jpg'     
     ],
     review: []   
 },
@@ -83,7 +44,11 @@ export const ProductData = [
     brand: 'Sony',
     id: 3,
     image: [
-       one, one1, one2, one3,     
+       'https://res.cloudinary.com/dp7wnxwc6/image/upload/v1690382480/tech-store-projects/one_wwlr2m.jpg',
+
+        'https://res.cloudinary.com/dp7wnxwc6/image/upload/v1690374563/tech-store-projects/s4_ajhytf.jpg',
+         'https://res.cloudinary.com/dp7wnxwc6/image/upload/v1690374548/tech-store-projects/s2_qwowqm.jpg',
+          'https://res.cloudinary.com/dp7wnxwc6/image/upload/v1690374526/tech-store-projects/s1_mu8msu.jpg',     
     ],
     review: []   
 },
@@ -96,10 +61,10 @@ export const ProductData = [
     brand: 'Intex',
     id: 4,
     image: [
-        sw2,     
-        a4,     
-        a2,     
-        a3     
+        'https://res.cloudinary.com/dp7wnxwc6/image/upload/v1690382521/tech-store-projects/sw2_ypu3y0.jpg',     
+        'https://res.cloudinary.com/dp7wnxwc6/image/upload/v1690383117/tech-store-projects/a3_fmayvw.jpg',
+        'https://res.cloudinary.com/dp7wnxwc6/image/upload/v1690383116/tech-store-projects/a2_drx9ew.jpg',
+        'https://res.cloudinary.com/dp7wnxwc6/image/upload/v1690383112/tech-store-projects/a1_rleozw.jpg' 
     ],
     review: []   
 },
@@ -111,10 +76,10 @@ export const ProductData = [
     brand: 'HP',
     id: 5,
     image: [
-        lap1,     
-        l1,     
-        l3,     
-        l5     
+        'https://res.cloudinary.com/dp7wnxwc6/image/upload/v1690382550/tech-store-projects/lap1_ocmg9i.jpg',     
+        'https://res.cloudinary.com/dp7wnxwc6/image/upload/v1690383225/tech-store-projects/l6_vynlzo.jpg',     
+        'https://res.cloudinary.com/dp7wnxwc6/image/upload/v1690383208/tech-store-projects/l4_dhccy9.jpg',     
+        'https://res.cloudinary.com/dp7wnxwc6/image/upload/v1690383204/tech-store-projects/l1_yatnjg.jpg'   
     ],
     review: []   
 },
@@ -126,10 +91,10 @@ export const ProductData = [
     brand: 'Lenovo',
     id: 6,
     image: [
-        lap2,     
-        l3,     
-        l4,     
-        l6     
+        'https://res.cloudinary.com/dp7wnxwc6/image/upload/v1690382562/tech-store-projects/lap2_ato9ta.jpg',     
+        'https://res.cloudinary.com/dp7wnxwc6/image/upload/v1690383225/tech-store-projects/l6_vynlzo.jpg',     
+        'https://res.cloudinary.com/dp7wnxwc6/image/upload/v1690383208/tech-store-projects/l4_dhccy9.jpg',     
+        'https://res.cloudinary.com/dp7wnxwc6/image/upload/v1690383204/tech-store-projects/l1_yatnjg.jpg'     
     ],
     review: []   
 },
@@ -141,10 +106,11 @@ export const ProductData = [
     brand: 'Infinix',
     id: 7,
     image: [
-        er1,     
-        e8,     
-        e1,     
-        e4     
+        'https://res.cloudinary.com/dp7wnxwc6/image/upload/v1690382595/tech-store-projects/er1_ivqhk2.jpg',
+        'https://res.cloudinary.com/dp7wnxwc6/image/upload/v1690383289/tech-store-projects/e1_ica8l4.jpg',
+         'https://res.cloudinary.com/dp7wnxwc6/image/upload/v1690383293/tech-store-projects/e6_dnve0s.jpg',
+         'https://res.cloudinary.com/dp7wnxwc6/image/upload/v1690383299/tech-store-projects/e5_coclqd.jpg'    
+         
     ],
     review: []   
 },
@@ -156,10 +122,10 @@ export const ProductData = [
     brand: 'ZebDuke',
     id: 8,
     image: [
-        er2,     
-        e5,     
-        e6,     
-        e7     
+        'https://res.cloudinary.com/dp7wnxwc6/image/upload/v1690382605/tech-store-projects/er2_lddskv.jpg',     
+        'https://res.cloudinary.com/dp7wnxwc6/image/upload/v1690383299/tech-store-projects/e5_coclqd.jpg',     
+        'https://res.cloudinary.com/dp7wnxwc6/image/upload/v1690383293/tech-store-projects/e6_dnve0s.jpg',     
+        'https://res.cloudinary.com/dp7wnxwc6/image/upload/v1690383292/tech-store-projects/e7_m5dhck.jpg'     
     ],
     review: []   
 },
@@ -171,10 +137,10 @@ export const ProductData = [
     brand: 'Sony',
     id: 9,
     image: [
-        three,     
-        p1,     
-        two2,     
-        one3     
+        'https://res.cloudinary.com/dp7wnxwc6/image/upload/v1690382697/tech-store-projects/three_ihwosd.jpg',     
+        'https://res.cloudinary.com/dp7wnxwc6/image/upload/v1690383025/tech-store-projects/i3_yh3crs.jpg',     
+        'https://res.cloudinary.com/dp7wnxwc6/image/upload/v1690383018/tech-store-projects/i2_diivqc.jpg',     
+        'https://res.cloudinary.com/dp7wnxwc6/image/upload/v1690382998/tech-store-projects/i1_okksy5.jpg'      
     ],
     review: []   
 },

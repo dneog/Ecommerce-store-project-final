@@ -38,7 +38,7 @@
         transition: 0.6s;
     }
     .second{
-        width: 64.5%;
+        width: 64.2%;
       justify-content: flex-end;
         display: flex;
         transition: 0.6s;
@@ -139,6 +139,7 @@
     }
     .but{
         display: block;
+        padding-right: 4px;
     }
     .active{
         color: rgba(255, 111, 1, 0.993);
@@ -166,17 +167,36 @@
 
 }
 
-@media screen and (max-width: 1350px)  {
-    .header{
-        padding: 14px 0px;
-        padding-bottom: 4px;
-        width: 100%;
+// @media screen and (max-width: 1350px)  {
+//     .header{
+//         padding: 14px 0px;
+//         padding-bottom: 4px;
+//         width: 100%;
        
-        .techs{
-            font-size: 18px;
-            padding-left: 10px;
-            padding-bottom: 10px;
-           }
-    }
+//         .techs{
+//             font-size: 18px;
+//             padding-left: 10px;
+//             padding-bottom: 10px;
+//            }
+//     }
 
+// }
+
+@media screen and (max-width: 700px){
+    .but{
+        display: block;
+        padding-right: 10px;
+    }
+    .mobile-links{
+        z-index: 999;
+        position: absolute;
+       display: block;
+       list-style: none;
+       right: 12px;
+       top: 50px;
+       background: #ffffff;
+       padding: 10px 0px;
+       transition: all 0.5s ease-in-out;
+      border-radius: 5px;
+    }
 }
