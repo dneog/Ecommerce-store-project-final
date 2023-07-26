@@ -8,7 +8,7 @@ import {useDispatch} from 'react-redux';
 import { ADD_TO_CART } from '../../redux/slice/ProductCartSlice';
 
 const ProductDetails = () => {
-    const [isLoading, setIsLoading]= useState(true)
+   
    const {id}= useParams();
    const selectedProduct= ProductData.find((item)=> item.id == id)
    const dispatch= useDispatch()
@@ -21,9 +21,7 @@ const ProductDetails = () => {
     setImageIndex(index)
    }
 
-   const handleLoad=()=> {
-    setIsLoading(false)
-   }
+  
 
   return (
     <div className={styles.product}>
