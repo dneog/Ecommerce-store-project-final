@@ -1,0 +1,57 @@
+.search{
+    display: flex;
+    justify-content: space-between;
+  
+    align-items: center;
+    margin-top: 10px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+
+    p{
+        padding-top: 5px;
+    }
+
+}
+.searchBar{
+    display: flex;
+    border: 1px solid #00000058;
+    padding: 4px 10px;
+    background: #ffffff;
+    border-radius: 5px;
+    
+    input{
+        outline: none;
+        border: 0;
+        width: 250px;
+        font-size: 16px;
+        padding: 0px 5px;
+    }
+
+}
+.cardFlex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+@media (max-width: 734px){
+    
+    
+   .search{
+    display: flex;
+    justify-content: center;
+  
+    
+   }
+    
+    .searchBar{
+        margin-right: 50px;
+        input{
+           width: 80%;
+           
+        }
+    }
+    .total{
+        display: none;
+    }
+}

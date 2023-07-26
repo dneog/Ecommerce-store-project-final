@@ -1,0 +1,48 @@
+.page{
+    background:#f0f1f3;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.fil{
+    width: 300px;
+}
+.lis{
+    
+    width: 80%;
+}
+.showBtn{
+    position: absolute;
+    display: none;
+}
+
+@media (max-width: 734px){
+
+    .showBtn{
+        display: block;
+        padding: 2px 5px;
+        margin-top: 13px;
+        margin-left: 76%;
+    }
+   
+    .fil{
+       
+        position: absolute;
+        width: 60%;
+        z-index: 999;
+        border-radius: 5px;
+        background: #ffffff;
+        padding: 10px 20px;
+        height: 100vh;
+        margin-left: -12px;
+        box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.133);
+    }
+    .hide{
+        display: none;
+        transition: all 0.3s;
+    }
+    .lis{
+    
+        width: 92%;
+    }
+}

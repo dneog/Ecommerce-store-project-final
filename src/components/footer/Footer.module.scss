@@ -1,0 +1,83 @@
+.copy{
+    border-top: 1px solid #7e7e7e;
+    text-align: center;
+    color: white;
+    background: #1f2a42;
+    padding: 20px;
+}
+
+.footer{
+    .techs{
+        margin-bottom: 5px;
+    }
+
+    h4{
+        font-weight: 400;
+        font-size: 14px;
+        color: #d3d3d3;
+
+    }
+    background: #1f2a42;
+    color: white;
+   
+    padding: 20px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    h3{
+        padding-bottom: 5px;
+        font-weight: 500;
+    }
+    .as{
+        display: flex;
+        align-items:center;
+        
+    }
+    .homes{
+        width: 24px;
+      
+        padding-right: 4px;
+      
+
+
+    }
+    .homess{
+        width: 23px;
+       
+        padding-right: 4px;
+
+
+    }
+    a{
+        color: rgb(232, 232, 232);
+       
+       
+    }
+    p{
+        padding: 5px 0px;
+        color: #d9d9d9;
+    }
+}
+
+
+@media (max-width: 734px){
+    .footer{
+        .banners{
+            display: none;
+        }
+        .credtss{
+            display: none;
+        }
+        .as{
+            p{
+                font-size: 13px;
+            }
+        }
+        .cu{
+            p{
+                font-size: 13px;
+            }
+        }
+    }
+    
+}

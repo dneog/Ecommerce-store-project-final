@@ -1,38 +1,50 @@
-.App {
+.permission{
+    width: 300px;
+    margin: 20px auto;
+    height: 85vh;
+
+}
+.back{
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.checkout-widths{
+  height: 85vh;
+}
+
+.cashondelivery{
+  width: 40%;
+  justify-content: center;
   text-align: center;
-}
+  margin: 200px auto;
+  margin-bottom: 420px;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
 }
+.payCash{
+  font-size: 18px;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
+.btnCash{
+  margin: 5px;
+  padding: 4px 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.2s;
+  outline: none;
+  color: rgb(6, 147, 6);
+  background: rgb(255, 249, 249);
+  border: 0.2px solid rgb(0, 158, 24);
+  border-radius: 3px;
+}
+.btnCash:hover{
+  color: rgb(255, 255, 255);
+  background: rgb(3, 157, 34);
+  border: 0.2px solid rgb(0, 158, 24);
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+}
+.showflex{
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+ 
 }

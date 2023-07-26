@@ -1,0 +1,92 @@
+
+body{
+    background:#f0f1f3;
+}
+.main{
+    height: 80vh;
+  
+ 
+}
+form{
+   
+    display: flex;
+    flex-direction: column;
+}
+.login{
+    display: flex;
+    background: #ffffff;
+    flex-direction: column;
+    width: 330px;
+    padding: 15px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.133);
+    font-size: 21px;
+    margin: 0px auto;
+    margin-top: 120px;
+   
+    .lo{
+        text-align: center;
+        padding-bottom: 7px;
+
+    }
+    .forgot{
+        padding-left: 5px;
+        padding-bottom: 10px;
+        font-size: 13px;
+    }
+    .ors{
+        text-align: center;
+       font-size: 14px;
+
+
+    }
+    input{
+        font-size: 15px;
+        
+        padding: 6px;
+        border: 0.5px solid rgba(0, 0, 0, 0.484);
+       
+        margin: 7px 5px;
+
+    }
+   .loginButton{
+        margin: 5px;
+        padding: 6px;
+        font-size: 16px;
+        background: #7829ff;
+        color: white;
+        border: 0;
+        transition: all 0.2s;
+        cursor: pointer;
+        &:hover{
+            background: #6d23ee;
+        }
+    }
+
+    .google{
+        margin: 5px;
+        padding: 6px;
+        font-size: 15px;
+        background: #00000000;
+        border: 0.5px solid rgba(0, 0, 0, 0.529);
+
+        transition: all 0.2s;
+        cursor: pointer;
+        &:hover{
+            background: #fbfbfb;
+        }
+    }
+    .ic{
+        margin-bottom: -4px;
+        font-size: 19px;
+    }
+
+}
+.don{
+    text-align: center;
+    padding-top: 15px;
+    span{
+        color: #6a13ff;
+    }
+}
