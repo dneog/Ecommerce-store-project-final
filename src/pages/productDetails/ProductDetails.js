@@ -8,7 +8,7 @@ import {useDispatch} from 'react-redux';
 import { ADD_TO_CART } from '../../redux/slice/ProductCartSlice';
 
 const ProductDetails = () => {
-   
+    const [isLoading, setIsLoading]= useState(true)
    const {id}= useParams();
    const selectedProduct= ProductData.find((item)=> item.id == id)
    const dispatch= useDispatch()
@@ -21,7 +21,9 @@ const ProductDetails = () => {
     setImageIndex(index)
    }
 
-  
+   const handleLoad=()=> {
+    setIsLoading(false)
+   }
 
   return (
     <div className={styles.product}>
@@ -33,13 +35,13 @@ const ProductDetails = () => {
     </div>
     <div className={styles.details}>
           <div className={styles.img}>
-          <img src={selectedProduct.image[imageIndex]} alt="" />
+          <img src={selectedProduct.image[imageIndex]} onLoad={handleLoad} alt="" />
           
 
-
+{isLoading && <Skeleton variant="rectangular" width={350} height={250} animation="wave" />}
     {selectedProduct.image.map((img, index)=> (
      
-        <img className={styles.subImg} src={img} alt="" onClick={()=> handleClick(index)} /> 
+        <img className={styles.subImg} src={img} alt="" onClick={()=> handleClick(index)} onLoad={handleLoad} /> 
       ))}
           </div>
           <div className={styles.content}>
