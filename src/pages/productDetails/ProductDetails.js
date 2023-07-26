@@ -35,14 +35,11 @@ const ProductDetails = () => {
     </div>
     <div className={styles.details}>
           <div className={styles.img}>
-          <img src={selectedProduct.image[imageIndex]} onLoad={handleLoad} alt="" />
+          <img src={selectedProduct.image[0]} alt="" onLoad={handleLoad} />
           
 
-{isLoading && <Skeleton variant="rectangular" width={350} height={250} animation="wave" />}
-    {selectedProduct.image.map((img, index)=> (
-     
-        <img className={styles.subImg} src={img} alt="" onClick={()=> handleClick(index)} onLoad={handleLoad} /> 
-      ))}
+{isLoading && <Skeleton variant="rectangular" width={260} height={180} animation="wave" />}
+    
           </div>
           <div className={styles.content}>
             <h3>{selectedProduct.name}</h3>

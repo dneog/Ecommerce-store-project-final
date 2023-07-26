@@ -50,10 +50,10 @@ export const ProductData = [
         brand: 'Intex',
         id: 1,
         image: [
-            sw1,     
-            'https://res.cloudinary.com/dp7wnxwc6/image/upload/v1690374563/tech-store-projects/s4_ajhytf.jpg' ,    
-            'https://res.cloudinary.com/dp7wnxwc6/image/upload/v1690374548/tech-store-projects/s2_qwowqm.jpg',     
-            'https://res.cloudinary.com/dp7wnxwc6/image/upload/v1690374526/tech-store-projects/s1_mu8msu.jpg'     
+            sw1,
+            a1,
+            a2,
+            a3
         ],
         review: []   
     },    
