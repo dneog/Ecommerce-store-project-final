@@ -31,3 +31,20 @@
         border-radius: 5px;
     }
 }
+
+@media (max-width: 734px){
+    .background{
+        position: fixed;
+        width: 100vw;
+        height: 100vh;
+        background: #00000000;
+        z-index: 9;
+    }
+
+    .userModel{
+        width: 300px;
+        top: 20%;
+        border: 1px solid rgba(0, 0, 0, 0.295);
+        box-shadow: 0px 10px 45px -3px rgba(0, 0, 0, 0.401);
+    }
+}
