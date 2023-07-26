@@ -54,7 +54,10 @@
       .img {
         width: 41%;
        border-radius: 5px;
-       
+       img {
+        width: 100%;
+        border-radius: 5px;
+      }
         .subImg {
           width: 110px;
           border-radius: 5px;

@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 import Skeleton from '@mui/material/Skeleton';
 import {useDispatch} from 'react-redux';
 import { ADD_TO_CART } from '../../redux/slice/ProductCartSlice';
-import ReactImageMagnify from 'react-image-magnify';
+
 const ProductDetails = () => {
     const [isLoading, setIsLoading]= useState(true)
    const {id}= useParams();
@@ -35,21 +35,8 @@ const ProductDetails = () => {
     </div>
     <div className={styles.details}>
           <div className={styles.img}>
-          <ReactImageMagnify   {...{
-    smallImage: {
-      
-        alt: 'Wristwatch by Ted Baker London',
-        isFluidWidth: true,
-       
-        src: selectedProduct.image[imageIndex]
-    },
-    largeImage: {
-        src: selectedProduct.image[imageIndex],
-        
-        width: 1400,
-        height: 1800
-    }
-}} />
+          <img src={selectedProduct.image[imageIndex]} alt="" />
+          
 
 {isLoading && <Skeleton variant="rectangular" width={260} height={180} animation="wave" />}
     {selectedProduct.image.map((img, index)=> (

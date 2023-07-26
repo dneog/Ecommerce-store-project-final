@@ -23,7 +23,7 @@ const ProductCard = ({product}) => {
     <div className={styles.cards}>
     <Link to={`/product-details/${id}`} >
         <div className={styles.img}>
-        {loading && <Skeleton variant="rectangular" width={110} height={80} animation="wave" />}
+        {loading && <Skeleton variant="rectangular" width={260} height={180} animation="wave" />}
 
          <img src={image[0]} alt={name} onLoad={handleLoad} />  
       
