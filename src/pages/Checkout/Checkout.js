@@ -69,7 +69,7 @@ const Checkout = () => {
             <div className={styles.ck}>
             <div>
             <p>Total Cart Items : {cartTotalQuantity}</p>
-            <p>Total Amout : {cartTotalAmount.toFixed(2)} &#8377;</p>
+            <p>Total Amout : {cartTotalAmount}&#8377;</p>
             </div>
             <div>
             <p>Payment Method</p>
