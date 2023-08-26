@@ -58,8 +58,8 @@ const orderedProduct= orders.find((item)=> item.id=== id)
             
           </tr>
           <tr>
-            <td><p>Payment Status</p></td>
-            <td className={styles.stts}>Completed</td>
+            <td><p>Payment Mode</p></td>
+            <td className={styles.stts}>Cash on Delivery</td>
           </tr>
          <tr>
          <td><p>Shipping Address</p></td>

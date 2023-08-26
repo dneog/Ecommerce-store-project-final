@@ -18,7 +18,15 @@ const Login = () => {
   const [password, setPassword]= useState('');
   const [isLoading, setLoading]= useState(false);
 
- 
+
+  const handleLoginGuest=()=> {
+   
+    setEmail('test@gmail.com')
+    setPassword('123456')
+
+   
+
+  }
 
 
   
@@ -60,6 +68,9 @@ const Login = () => {
       </div>
       <p className='don'>Don't Have an Account ? 
       <Link to={'/signup'}>&nbsp;<span>SignUp</span></Link></p>
+      <p className='oro'>or</p>
+
+<button className='loginButtonss' onClick={()=> handleLoginGuest()}>Login with Test Account</button>
     </div>
   )
 }

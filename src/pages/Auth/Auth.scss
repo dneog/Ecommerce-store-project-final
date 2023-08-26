@@ -1,6 +1,6 @@
 
 body{
-    background:#f0f1f3;
+    background:#f6f6f6;
 }
 .main{
     height: 80vh;
@@ -23,7 +23,7 @@ form{
     box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.133);
     font-size: 21px;
     margin: 0px auto;
-    margin-top: 120px;
+    margin-top: 150px;
    
     .lo{
         text-align: center;
@@ -89,4 +89,27 @@ form{
     span{
         color: #6a13ff;
     }
+}
+
+.loginButtonss{
+    display: flex;
+    margin: auto;
+    padding: 6px 20px;
+    font-size: 17px;
+    background: #7829ff00;
+    border: 1px solid black;
+    margin-top: 10px;
+    color: rgb(74, 74, 74);
+    border-radius: 3px;
+    transition: all 0.2s;
+    cursor: pointer;
+    &:hover{
+        background: #ffffff;
+    }
+}
+
+.oro{
+    text-align: center;
+    color: rgba(55, 55, 55, 0.778);
+    font-size: 15px;
 }

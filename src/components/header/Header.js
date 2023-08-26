@@ -106,7 +106,7 @@ signOut(auth).then(() => {
           <li onClick={logoutUser} className='logout'>Logout</li></ShowOnLogin>
           <ShowOnLogin>
           <li><NavLink to={'/order-history'}  className={activeLink}>My Orders</NavLink></li></ShowOnLogin>
-          <li><NavLink to={'/profile'} className='prof'>{userPofilePic !== null && userMail ? !isMobile ? <img className='profile' src={userPofilePic} alt="" /> : <p className='ile'>Profile</p> : <FaUserCircle className='cir'  /> }<span></span></NavLink></li>
+          <li><NavLink to={'/'} className='prof'>{userPofilePic !== null && userMail ? !isMobile ? <img className='profile' src={userPofilePic} alt="" /> : <p className='ile'>Profile</p> : <FaUserCircle className='cir'  /> }<span></span></NavLink></li>
           
         </ul>
         <NavLink to={'/cart'}>
