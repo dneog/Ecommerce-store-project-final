@@ -51,7 +51,7 @@ const Checkout = () => {
             cartTotalAmount,
             userDetails,
             userID,
-            status: 'processing',
+            status: 'Processing',
             createdAt: Timestamp.now().toDate()
         };
         try{
